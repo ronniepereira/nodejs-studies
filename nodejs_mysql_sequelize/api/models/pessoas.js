@@ -1,8 +1,9 @@
 'use strict';
-import {
+const {
   Model
-} from 'sequelize';
-exports =
+} = require('sequelize');
+
+module.exports =
   (sequelize, DataTypes) => {
     class Pessoas extends Model {
       /**
