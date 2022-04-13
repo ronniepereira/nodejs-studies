@@ -29,7 +29,8 @@ module.exports =
       sequelize,
       modelName: 'Pessoas',
       tableName: 'Pessoas',
-      freezeTableName: true
+      freezeTableName: true,
+      paranoid: true
     });
     return Pessoas;
   };
